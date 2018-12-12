@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_bf3ba096e9c746aba0218ef3e1e41464": {
+        "id": "AS_FlexContainer_bf3ba096e9c746aba0218ef3e1e41464",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fac96f40acbe49d7bbcbde0f61a78963"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b2f2c69395b241f19f1d61d3d0d606d1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "aniSearch",
+            "display": "aniSearch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
