@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_d72ada3673044c46ad732fce1877fce5": {
+        "id": "AS_FlexContainer_d72ada3673044c46ad732fce1877fce5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c2e8ed2b689b49e2937b53bfa075736d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e2c308f9364346c3a48c6012beb6c912",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "moveAnimation",
+            "display": "moveAnimation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
