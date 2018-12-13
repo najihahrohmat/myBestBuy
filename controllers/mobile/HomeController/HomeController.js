@@ -7,7 +7,7 @@ define({
    ///SHOW CURRENT PAGE///
     var currFrm = kony.application.getCurrentForm();
     this.view.lblCurrentPage.text=currFrm.id;
-	//alert("Value of first form is :" +currFrm.id);
+	alert("Value of first form is :" +currFrm.id);
   
   //array data
   var segData=[ { categories:"TV, Home Theater" },
