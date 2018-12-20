@@ -1,77 +1,117 @@
-/* jshint esnext: true */
+define({
+  context: {},
+  cachedContext: {},
 
-define({ 
-  
-   catSegment : function(){
-     
-   ///SHOW CURRENT PAGE///
-    var currFrm = kony.application.getCurrentForm();
-    this.view.lblCurrentPage.text=currFrm.id;
-	alert("Value of first form is :" +currFrm.id);
-  
-  //array data
-  var segData=[ { categories:"TV, Home Theater" },
-           		{ categories:"Audio" },
-            	{ categories:"Car Electronic & GPS" },
-            	{ categories:"Cameras & Camcorders" },
-            	{ categories:"Computers & Tablets" },
-              	{ categories:"Video Games, Movies & Music" },
-            	{ categories:"Movies & Music" },
-            	{ categories:"Video Games" },
-              	{ categories:"Cell Phones" },
-            	{ categories:"Connected Home & Housewares" },
-            	{ categories:"Appliance" },
-            	{ categories:"Health, Fitness & Beauty" },
-              	{ categories:"Best Buy Gift Cards" },
-            	{ categories:"Corporate Gift Cards" },
-            	{ categories:"Gift Ideas" },
-              	{ categories:"Name Brands" },
-            	{ categories:"Reward Zone" },
-            	{ categories:"Best Buy News" },
-            	{ categories:"Magnolia Home Theater" },
-              	{ categories:"Special Sale" },
-            	{ categories:"Best Buy Outlet" },
-            	{ categories:"More Categories" },
-              { categories:"Review & Rating" },
-              { categories:"Best Buy Racing" },
-              { categories:"Partsearch" },
-              { categories:"Best Buy For Business" },
-              { categories:"Office" },
-              { categories:"Houseware" },
-              { categories:"Customer Service" },
-              { categories:"e Gift Cards" },
-              { categories:"Musical Instruments" },
-              { categories:"Featured Offers" },
-              { categories:"Batteries & Power" },
-              { categories:"Wearable Technology" },
-              { categories:"Geek Squad" },
-              { categories:"AppleCare" }];
-  
-  //map data to segment
-  this.view.segCategory.widgetDataMap={lblCategoryData:"categories"};
-  this.view.segCategory.setData(segData);
+  TYPE:{
+    FAVORITE: 'FAVORITE FOOD',
+    OTHER: 'OTHER FOOD',
+  },
 
-    //////ANIMATION////////
-    //define
-    var transformObject1 = kony.ui.makeAffineTransform();
- 	var transformObject2 = kony.ui.makeAffineTransform();
-    
-    transformObject1.translate(200, 0);
-    transformObject2.translate(0, 0);
-    
-    var animationObject = kony.ui.createAnimation({
-      "0":{"transform":transformObject1,"stepConfig":{"timingFunction":kony.anim.LINEAR}},
-    "100":{"transform":transformObject2,"stepConfig":{"timingFunction":kony.anim.LINEAR}}});
-   	
-    var animationConfig = {
-    	duration: 1,
-    	fillMode: kony.anim.FILL_MODE_FORWARDS
-    };
-    
-  	var animationCallbacks = {"animationEnd":function(){kony.print("animation END")}};
-  	
-    var animationDefObject={definition:animationObject,config:animationConfig,callbacks:animationCallbacks};
-  	
-    this.view.segCategory.setAnimations({visible:animationDefObject});
-  }
- });
+  TEMPLATES: {
+    favSelectRow: 'flxRowCategory',
+    sectionHeader: 'flxHeader',
+  },
+
+  SKINS: {
+    rowFocus: 'sknFlxBgOriginalWhite',
+  },
+
+  onViewCreated: function(){
+      this.getFoodList(); 
+  },
+
+  ///set data to segment///
+  prepareSection: function(type, data) {
+    let section = [];
+
+    // set section header
+    section.push({
+      foodType: this.TYPE[type], 
+      template: this.TEMPLATES.sectionHeader 
+    });
+
+    if (data.length !== 0) {
+      let foodData = [];
+      for (let [i, food] of data.entries()) {
+//         let foodIcon;
+//         let initials;
+//         let imgBounds;
+//         if (food.iconUrl) {
+//           foodIcon = {src: utils.getFullUrl(food.iconUrl)};
+//           imgBounds = {isVisible: true};
+//           initials = {isVisible: false};
+//         } else {
+//           imgBounds = {isVisible: false};
+//           initials = {isVisible: true, text: utils.getInitials(food.name)};
+//         }
+
+        foodData.push({
+          "id": food.id,
+          "template": this.TEMPLATES.favSelectRow,
+          'flxInfo': {width: '75%'},
+//           "iconUrl": foodIcon,
+//           "initials": initials,
+          "lblCategoryData": food.name,
+//           "title": {text: food.name, centerY: '50%'},
+//           'subtitle': {isVisible: false},
+//           "lblLine": (i < data.length - 1) ? {isVisible: true} : {},
+//           "imgBounds": imgBounds,
+//           'lblAmount': {isVisible: false},
+        });
+      }
+      section.push(foodData);
+    }
+    return section;
+  },
+
+  getFoodList: function() {
+    let response = require('mock/getDataDummy');
+    this.getFoodListSuccess(response);
+  },
+
+  getFoodListSuccess: function(response) {
+    if (response !== null) { 
+      if (response.status.code === "10000"){ 
+        try {
+          let segData = [];
+          if (response.data.favFood.length !== 0) {
+            let favFoodData = this.prepareSection('FAVORITE', response.data.favFood);
+            segData.push(favFoodData);
+          }
+
+          if (response.data.foods.length !== 0) {
+            let otherfoodsData = this.prepareSection('OTHER', response.data.foods);
+            segData.push(otherfoodsData);
+          }
+
+          this.view.segDetail.widgetDataMap = {
+            flxRowCategory: 'flxInfo',
+            lblCategoryData: 'lblCategoryData',
+            imgNext: "imgNext", 
+//             lblAccName: "title", 
+//             lblAccNo: 'subtitle',
+//             lblAmount: 'lblAmount',
+//             lblLine: "lblLine", 
+//             flxCircleBound: 'imgBounds',
+            lblSecHeader: "foodType",
+          }; 
+
+          this.view.segDetail.setData(segData);
+        }catch(err){
+          kony.print(err);
+        }
+
+      } else {
+        kony.print('Unhandled error code for getFoodList');
+      }
+    } else {
+      kony.print("Response is empty");
+    }
+//     loadingOverlay.remove();
+  },
+
+  getFoodListFailure: function(error) {
+    kony.print('Failed to invoke getFoodList: ' + error);
+//     loadingOverlay.remove();
+  },
+});

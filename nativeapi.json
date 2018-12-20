@@ -7,7 +7,7 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "D:\\Users\\451794\\kony\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\532\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
-                    "filepath": "D:\\Users\\451794\\KonyWorkspace8.2.0\\myBestBuy\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "D:\\Users\\451794\\KonyWorkspaceMVP1.1\\myBestBuy\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
                     "enable": true
                 },
                 "Kony_SDKCommons-iOS-11.0": {
@@ -15,7 +15,7 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "D:\\Users\\451794\\KonyVisualizer8.2.0\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\516\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
-                    "filepath": "D:\\Users\\451794\\KonyWorkspace8.2.0\\myBestBuy\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "D:\\Users\\451794\\KonyWorkspaceMVP1.1\\myBestBuy\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
                     "enable": true
                 }
             }
@@ -27,7 +27,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "D:\\Users\\451794\\kony\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\532\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
-                    "filepath": "D:\\Users\\451794\\KonyWorkspace8.2.0\\myBestBuy\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "D:\\Users\\451794\\KonyWorkspaceMVP1.1\\myBestBuy\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
                     "enable": true
                 },
                 "Kony_SDKCommons-Android-4.0": {
@@ -35,7 +35,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "D:\\Users\\451794\\KonyVisualizer8.2.0\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\516\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
-                    "filepath": "D:\\Users\\451794\\KonyWorkspace8.2.0\\myBestBuy\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "D:\\Users\\451794\\KonyWorkspaceMVP1.1\\myBestBuy\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
                     "enable": true
                 }
             }

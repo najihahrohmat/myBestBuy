@@ -1,0 +1,460 @@
+{
+    "classname": "ShortcutButton",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ada463adb7874d72a510ef6bd2462dba",
+                    "paramList": [],
+                    "propertyKey": "setShadow",
+                    "pw": {
+                        "displayName": "setShadow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "de39038e9c8d4745862d6fff1bc0740f",
+                    "paramList": [],
+                    "propertyKey": "setAddNewQLProp",
+                    "pw": {
+                        "displayName": "setAddNewQLProp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d955f204a38f4763a7e36d5149b96a0c",
+                    "paramList": [],
+                    "propertyKey": "setEmptyQLProp",
+                    "pw": {
+                        "displayName": "setEmptyQLProp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f8396aae385440dfa3c40a05ded9c494",
+                    "paramList": [],
+                    "propertyKey": "setInitials",
+                    "pw": {
+                        "displayName": "setInitials",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ecb0763830cb4afb96be1bf9edaa1dbc",
+                    "paramList": [],
+                    "propertyKey": "setSrcImage",
+                    "pw": {
+                        "displayName": "setSrcImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e02dd82c482948f6832af4b06063ad06",
+                    "paramList": [],
+                    "propertyKey": "setBase64Image",
+                    "pw": {
+                        "displayName": "setBase64Image",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5c3a40319ee4bf9b19bcb9011320326",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClick",
+                        "srcWidget": "flxAction",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f36d91a29fb54d96950ff8b7bd4521c7"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Text",
+                "Visibility",
+                "Source"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "f9468e50eba444019247fd340c99ae6d",
+                    "originalPropertyKey": "base64",
+                    "propertyIndex": 4,
+                    "propertyKey": "base64",
+                    "pw": {
+                        "displayName": "base64",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "cb81bba2fdbb42d3b56b4af51a908df4",
+                    "originalPropertyKey": "isActive",
+                    "propertyIndex": 11,
+                    "propertyKey": "isActive",
+                    "pw": {
+                        "displayName": "isActive",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "dac06f07663a4727b488f63277e6dada",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Text",
+                    "kuid": "e1a4de7f99ac4153b45293eaea2b53b2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Shortcut text",
+                        "srcWidget": "lblShortcut",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j02e52a5035149edab79d532ee3e3c05"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Visibility",
+                    "kuid": "b76bb4cc32fe480b86c74545bbbbb644",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "showImage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image Visibility",
+                        "srcWidget": "imgIcon",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f722ad9e9fed4e5895d26c5679bfa37d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Source",
+                    "kuid": "cee54f7b0d14433eacb138dc4c664cae",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image Source",
+                        "srcWidget": "imgIcon",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f722ad9e9fed4e5895d26c5679bfa37d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Visibility",
+                    "kuid": "a3d00e5b2d3546ee9ba8470756e7d164",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "showInitials",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Initials Visibility",
+                        "srcWidget": "lblInitials",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "eb2b045cc6ae4f55bdd266b44401c25c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Text",
+                    "kuid": "je7bfb9b5bdd4abe8056ad3134bc3227",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "txtInitials",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Initials",
+                        "srcWidget": "lblInitials",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "eb2b045cc6ae4f55bdd266b44401c25c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f24cc3fb78b34264b534c7436df2176e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "sknFlxInner",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Flex Skin",
+                        "srcWidget": "flxMask",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f106102584264305b8872dd3a458edb6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Visibility",
+                    "kuid": "hd69f463ed1a4291ba577a3c8b6a62c4",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "showFlxMask",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxMask Visibility",
+                        "srcWidget": "flxMask",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f106102584264305b8872dd3a458edb6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f518e78f07774fa6ac9351bc643c1b17",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "sknFlxOuter",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal",
+                        "srcWidget": "flxShadow",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "gd989f7766844cf7ad57e15c21c6c337"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b67d0e114ae845f5992ae9f09ba5fb28",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "sknText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Skin",
+                        "srcWidget": "lblShortcut",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j02e52a5035149edab79d532ee3e3c05"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bb8889e4fdfe45b8aeb710b5af2e71a8",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "sknInitials",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Initials Skin",
+                        "srcWidget": "lblInitials",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "eb2b045cc6ae4f55bdd266b44401c25c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "be6392cfe8494055a2875e991d6afc8f",
+                    "originalPropertyKey": "width",
+                    "propertyIndex": 8,
+                    "propertyKey": "txtWidth",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Width",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "lblShortcut",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j02e52a5035149edab79d532ee3e3c05"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f62f327e59834d77ac4b37b1a68862c0",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 9,
+                    "propertyKey": "sknFlxAction",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Flex Action Skin",
+                        "srcWidget": "flxAction",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f36d91a29fb54d96950ff8b7bd4521c7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a15eaa8523094957bbf2ca5df10edf3e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 10,
+                    "propertyKey": "sknFlxBlur",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Flx Blur Skin",
+                        "srcWidget": "flxBlur",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "aa04970354c644aab390636b98ef292c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.rhbgroup.dcp.core",
+    "version": "1.0.0"
+}

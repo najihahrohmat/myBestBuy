@@ -1,0 +1,626 @@
+{
+    "classname": "ApplicationHeader",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fd99ab5446484d019126c6dbb8eb523e",
+                    "paramList": [
+                        {
+                            "name": "bgSkin"
+                        },
+                        {
+                            "name": "leftObj"
+                        },
+                        {
+                            "name": "centerObj"
+                        },
+                        {
+                            "name": "rightObj"
+                        }
+                    ],
+                    "propertyKey": "initializeHeader",
+                    "pw": {
+                        "displayName": "initializeHeader",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4e2d8eab8c64499a76d04d2de92434a",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 1,
+                    "propertyKey": "onTouchEndLeftIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTouchEndLeftIcon",
+                        "srcWidget": "imgLeftIcon",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "d09c1e0e2c9c42ddbb4297e5bdfac0ca"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g3a6b66fcf854227bdc62baa52db0604",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 2,
+                    "propertyKey": "onTouchEndRightIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTouchEndRightIcon",
+                        "srcWidget": "imgRightIcon",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "jf0c20921efc4cedbbb13f756c3dcc54"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gad35d3d8f69417185365cc52af24d53",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 3,
+                    "propertyKey": "onTouchEndSecondaryRightIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTouchEndSecondaryRightIcon",
+                        "srcWidget": "imgRightIcon2",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c296f9bb76e84a438594c8074150ad80"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Left Section",
+                "Center Section",
+                "Right Section"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Left Section",
+                    "kuid": "ac8ba85b80dd4ca693812597ffd2496c",
+                    "originalPropertyKey": "enableLeft",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableLeft",
+                    "pw": {
+                        "displayName": "Enabled",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Right Section",
+                    "kuid": "a39fef58acba471696c3ef4294c54203",
+                    "originalPropertyKey": "enableRight",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableRight",
+                    "pw": {
+                        "displayName": "Enabled",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "single",
+                    "group": "Right Section",
+                    "kuid": "e9e13a067f0346fca80eb45ea8f05fa8",
+                    "originalPropertyKey": "iconSet",
+                    "propertyIndex": 2,
+                    "propertyKey": "iconSet",
+                    "pw": {
+                        "displayName": "Icon Set",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "single",
+                        "double"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Center Section",
+                    "kuid": "c60d6539f389455796d99c7516528aa0",
+                    "originalPropertyKey": "enableCenter",
+                    "propertyIndex": 2,
+                    "propertyKey": "enableCenter",
+                    "pw": {
+                        "displayName": "Enabled",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "light",
+                    "group": "General",
+                    "kuid": "dc4fe49e8b0c43e6a0f1a6424b9af53f",
+                    "originalPropertyKey": "theme",
+                    "propertyIndex": 3,
+                    "propertyKey": "theme",
+                    "pw": {
+                        "displayName": "Theme",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "light",
+                        "dark"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "text",
+                    "group": "Center Section",
+                    "kuid": "bea9d64b1c794e3d8656bc7a34efa11f",
+                    "originalPropertyKey": "titleType",
+                    "propertyIndex": 3,
+                    "propertyKey": "titleType",
+                    "pw": {
+                        "displayName": "Type",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "text",
+                        "image"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Question",
+                    "group": "Right Section",
+                    "kuid": "h677d4f54e8c460f9707b9f2d4e642fb",
+                    "originalPropertyKey": "sourcePrimaryRight",
+                    "propertyIndex": 3,
+                    "propertyKey": "sourcePrimaryRight",
+                    "pw": {
+                        "displayName": "Primary Image",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "Add",
+                        "Back",
+                        "Cancel",
+                        "Close",
+                        "Compare",
+                        "Delete",
+                        "Done",
+                        "Edit",
+                        "Hamburger",
+                        "Log Out",
+                        "Login",
+                        "Map",
+                        "My Bookmarks",
+                        "New Message",
+                        "Question",
+                        "Save",
+                        "Search",
+                        "Settings",
+                        "Share",
+                        "Skip"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Back",
+                    "group": "Left Section",
+                    "kuid": "gcb18d240b40486fac9ac0780d8aafdc",
+                    "originalPropertyKey": "sourceLeft",
+                    "propertyIndex": 3,
+                    "propertyKey": "sourceLeft",
+                    "pw": {
+                        "displayName": "Image",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "Add",
+                        "Back",
+                        "Call",
+                        "Cancel",
+                        "Close",
+                        "Compare",
+                        "Delete",
+                        "Done",
+                        "Edit",
+                        "Hamburger",
+                        "Log Out",
+                        "Login",
+                        "Map",
+                        "My Bookmarks",
+                        "New Message",
+                        "Question",
+                        "Save",
+                        "Search",
+                        "Settings",
+                        "Share",
+                        "Skip"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Question",
+                    "group": "Right Section",
+                    "kuid": "f7d037e4c86b4da4a55fb7c5ea63207e",
+                    "originalPropertyKey": "sourceSecondaryRight",
+                    "propertyIndex": 4,
+                    "propertyKey": "sourceSecondaryRight",
+                    "pw": {
+                        "displayName": "Secondary Image",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "Add",
+                        "Back",
+                        "Cancel",
+                        "Close",
+                        "Compare",
+                        "Delete",
+                        "Done",
+                        "Edit",
+                        "Hamburger",
+                        "Log Out",
+                        "Login",
+                        "Map",
+                        "My Bookmarks",
+                        "New Message",
+                        "Question",
+                        "Save",
+                        "Search",
+                        "Settings",
+                        "Share",
+                        "Skip"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "RHB Logo",
+                    "group": "Center Section",
+                    "kuid": "e3934a3be8324ad2b73739205575942f",
+                    "originalPropertyKey": "sourceCenter",
+                    "propertyIndex": 4,
+                    "propertyKey": "sourceCenter",
+                    "pw": {
+                        "displayName": "Image",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "cc53e14b09a1462a8c0324b41b4cf8ce",
+                    "type": "list selector",
+                    "value": [
+                        "RHB Logo"
+                    ]
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Left Section",
+                    "kuid": "d180a8281bf54e9e9aa91d2aecbe3677",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "textLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "lblLeftSecondary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f7e7da97dcd74bbf8e07b3162e42b164"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e42b831067cb451bba3ae0d8f6e6019c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "skinBG",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "BG Skin",
+                        "srcWidget": "flxBG",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h1482133edb7474f88b2403698f55909"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Right Section",
+                    "kuid": "a00f8f3eb8d442bfb889b55d81c6a878",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "textRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "lblRightSecondary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c667b013d99045d8b432f323a84969ba"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Center Section",
+                    "kuid": "d21974ccbf9746b68c7750be854e6770",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "textTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Title",
+                        "srcWidget": "lblCenterTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b9d49ce8de23482fa152c5e4c6707a46"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Center Section",
+                    "kuid": "hefce5c2adc540e0b4148603ff12887d",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "textSubtitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Subtitle",
+                        "srcWidget": "lblCenterSecondary",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "i49fca924c6944fd9f50849fa9b57566"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Center Section",
+                    "kuid": "d57aa865ec0c43c4b133c2584e565416",
+                    "originalPropertyKey": "height",
+                    "propertyIndex": 7,
+                    "propertyKey": "heightTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Height Title ",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "lblCenterTitle",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ],
+                                    [
+                                        "Preferred",
+                                        "preferred"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b9d49ce8de23482fa152c5e4c6707a46"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Center Section",
+                    "kuid": "d1a7084cc5534746975c7ea695a7024f",
+                    "originalPropertyKey": "maxNumberOfLines",
+                    "propertyIndex": 8,
+                    "propertyKey": "maxNumberOfLinesTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "textTruncatePosition"
+                        ],
+                        "displayName": "MaxNumberOfLines Title",
+                        "forkablePlatforms": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8"
+                            ]
+                        },
+                        "srcWidget": "lblCenterTitle",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "integer",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Text",
+                                "dataUpdaterId": "Forked-Text",
+                                "popupId": "Forked-Text",
+                                "type": "ForkPopupBtn"
+                            },
+                            "Label": {},
+                            "Radiobuttongroup": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b9d49ce8de23482fa152c5e4c6707a46"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Center Section",
+                    "kuid": "c5013153273c400a880a78e26ef8568f",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 9,
+                    "propertyKey": "contentAlignmentTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Content Alignment Title",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "lblCenterTitle",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b9d49ce8de23482fa152c5e4c6707a46"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.rhbgroup.dcp.core",
+    "version": "1.0.0"
+}

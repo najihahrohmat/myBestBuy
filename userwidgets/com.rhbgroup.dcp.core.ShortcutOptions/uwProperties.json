@@ -1,0 +1,60 @@
+{
+    "classname": "ShortcutOptions",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d9ae12b858884cfc808ec15880f29038",
+                    "paramList": [
+                        {
+                            "name": "list"
+                        }
+                    ],
+                    "propertyKey": "generateShortcuts",
+                    "pw": {
+                        "displayName": "generateShortcuts",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fa213578f43e409e8ad31fb87af2c746",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d760467a2dbc4478999be63c4001724b",
+                    "paramList": [],
+                    "propertyKey": "clearShortcuts",
+                    "pw": {
+                        "displayName": "clearShortcuts",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fa213578f43e409e8ad31fb87af2c746",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.rhbgroup.dcp.core",
+    "version": "1.0.0"
+}

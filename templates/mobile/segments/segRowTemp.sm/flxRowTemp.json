@@ -1,0 +1,74 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "74dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "scc4d9100f6f43ecad04b77de19b48c9",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblLine",
+        "lblAmount",
+        "lblAdditionalInfo",
+        "flxAccInfo",
+        "flxTag",
+        "lblInitials",
+        "imgQuickLink",
+        "flxCircleBound",
+        "imgCardLogo"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flxRowTempController"
+        }
+    },
+    "enablescrolling": true,
+    "focusskin": "scc4d9100f6f43ecad04b77de19b48c9",
+    "id": "flxRowTemp",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b12259fa18e6459c90e003a22df14ec9",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "segRowTemp",
+    "pf": "segRowTemp",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

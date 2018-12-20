@@ -76,7 +76,8 @@
         "rowTemplateId": "f7eb374d95514bc3af6798806bd821ce",
         "rowtemplate": "flxRoot",
         "widgetdatamap": {
-            "flxRoot": "flxRoot",
+            "flxRowCategory": "flxRowCategory",
+            "imgNext": "imgNext",
             "lblCategoryData": "lblCategoryData"
         }
     },
@@ -96,7 +97,7 @@
     "rowcounter": 0,
     "rowfocusskin": "sf40457e24364d5788d7636903d16d67",
     "rowskin": "sd3b71bbc54f4292bb701eaf124e9c02",
-    "rowtemplate": "flxRoot",
+    "rowtemplate": "flxRowCategory",
     "screenlevelwidget": false,
     "seccounter": 0,
     "sectionHeaderTemplateId": null,
@@ -116,7 +117,8 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "flxRoot": "flxRoot",
+        "flxRowCategory": "flxRowCategory",
+        "imgNext": "imgNext",
         "lblCategoryData": "lblCategoryData"
     },
     "zindex": 1

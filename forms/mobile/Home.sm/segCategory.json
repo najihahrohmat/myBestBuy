@@ -3,16 +3,7 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_data_": [
-        {
-            "imgNext": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblCategoryData": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        }
+        {}
     ],
     "_height_": {
         "type": "string",
@@ -82,11 +73,11 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
-    "rowTemplateId": "f7eb374d95514bc3af6798806bd821ce",
+    "rowTemplateId": null,
     "rowcounter": 0,
     "rowfocusskin": "sf40457e24364d5788d7636903d16d67",
     "rowskin": "sd3b71bbc54f4292bb701eaf124e9c02",
-    "rowtemplate": "flxRoot",
+    "rowtemplate": null,
     "screenlevelwidget": false,
     "seccounter": 0,
     "sectionHeaderTemplateId": null,
@@ -98,17 +89,11 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorcolor": "aaaaaa00",
-    "separatorrequired": true,
-    "separatorthickness": 1,
-    "showscrollbars": false,
+    "separatorrequired": false,
+    "showscrollbars": true,
     "viewtype": "tableview",
     "wType": "Segment",
     "widgetalignment": 5,
-    "widgetdatamap": {
-        "flxRoot": "flxRoot",
-        "imgNext": "imgNext",
-        "lblCategoryData": "lblCategoryData"
-    },
+    "widgetdatamap": {},
     "zindex": 1
 }

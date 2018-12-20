@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "90%"
+        "value": "70%"
     },
     "_margin_": [
         0,
@@ -21,10 +21,6 @@
     ],
     "_skin_": "s306b386f002401e961ed36fcae622c6",
     "_src_": "bestbuylogo.png",
-    "_top_": {
-        "type": "number",
-        "value": "0"
-    },
     "_width_": {
         "type": "string",
         "value": "20%"
@@ -41,7 +37,7 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "uwu47f392598634c59841a22f53b18eeb1",
+        "formID": "uwe8bd7e9dd754458ea2860a10a411c1c3",
         "platform": "iphone",
         "templateType": "userwidgets",
         "topLevelBox": null
@@ -51,7 +47,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f1cd509852fe47c3aa9f8c9b6a858f78",
+    "kuid": "deb97efa18d54de4ab6864e158e17db8",
     "name": "kony.ui.Image2",
     "parent": "headerPage",
     "pf": "userwidgetmodel",

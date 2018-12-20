@@ -27,7 +27,6 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerPage",
         "flxSearchHeader"
     ],
     "containerweight": 100,

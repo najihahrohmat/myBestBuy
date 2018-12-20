@@ -1,0 +1,67 @@
+{
+    "classname": "TabButtonComponent",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j7e5200d61ce43bc80bc1d214586d304",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        },
+                        {
+                            "name": "callback"
+                        }
+                    ],
+                    "propertyKey": "generateTabButtonContents",
+                    "pw": {
+                        "displayName": "generateTabButtonContents",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c621bc0788bf4476949add41b63247ac",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bdf312f633744d818f0c270ebd6a8c9c",
+                    "paramList": [
+                        {
+                            "name": "index"
+                        }
+                    ],
+                    "propertyKey": "onTabSelect",
+                    "pw": {
+                        "displayName": "onTabSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c621bc0788bf4476949add41b63247ac",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.rhbgroup.dcp.core",
+    "version": "1.0.0"
+}
