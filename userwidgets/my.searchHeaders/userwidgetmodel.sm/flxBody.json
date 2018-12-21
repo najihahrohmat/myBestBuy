@@ -23,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sc4f3b89ffaa4b8e920f500be34246a4",
+    "_skin_": "s800e07ed88e47a49e51b6c7afb064b1",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -35,21 +35,19 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "flxContentSeg"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "fscContain",
+    "id": "flxBody",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "be9be56593e54037960e0d2bcaf48ef8",
+    "kuid": "c5156176230d4ce39e96cbf4648c6492",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmInvestigate",
-    "pf": "frmInvestigate",
+    "parent": "searchHeaders",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

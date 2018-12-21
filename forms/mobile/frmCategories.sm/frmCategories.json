@@ -25,15 +25,19 @@
             "windowSoftInputMode": 2
         }
     },
+    "androidwearos": {
+        "needAppMenu": false
+    },
     "canUpdateUI": true,
     "children": [
-        "flxSearchHeader"
+        "headerPageBack",
+        "searchHeaders"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "Form1Controller"
+            "name": "frmCategoriesController"
         }
     },
     "currentLocale": "default",
@@ -43,7 +47,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form1",
+    "id": "frmCategories",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -61,7 +65,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "eece3d05b6074d239904c6974090882a",
+                "kuid": "g199f0b4573b47e389598ca1dcde8f08",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -72,7 +76,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "a6c9f290c82f4f28bef8a7945f47b05b",
+                        "kuid": "g0473143519f49ee9523a647aa8520d5",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -89,7 +93,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "fac96f40acbe49d7bbcbde0f61a78963",
+    "kuid": "j43f816cfda2428e95c3b66f90ede3ec",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,

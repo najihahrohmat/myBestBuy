@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "23dp"
+        "value": "60%"
     },
     "_margin_": [
         0,
@@ -19,39 +19,38 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_skin_": "s306b386f002401e961ed36fcae622c6",
-    "_src_": "next.png",
+    "_src_": "back.jpg",
     "_width_": {
         "type": "string",
-        "value": "33dp"
+        "value": "60%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
+        "formID": "uwi08910a2cabc46059f324536ada06253",
         "platform": "iphone",
-        "templateType": "segments",
+        "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "id": "imgNext",
+    "id": "imgBack",
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c5aa7d40ab1b4124992c53a4ac990a2a",
+    "kuid": "d93e7123f08c4c25800ef2df56061edf",
     "name": "kony.ui.Image2",
-    "parent": "flxRowCategory",
-    "pf": "segRowCategory",
+    "parent": "flxBack",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

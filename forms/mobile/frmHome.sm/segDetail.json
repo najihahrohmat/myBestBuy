@@ -12,8 +12,8 @@
     },
     "_indicator_": "none",
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -29,8 +29,8 @@
         0
     ],
     "_top_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -72,7 +72,7 @@
         "position": "bottom"
     },
     "parent": "flxContentSeg",
-    "pf": "frmInvestigate",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,

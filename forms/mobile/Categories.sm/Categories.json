@@ -28,8 +28,7 @@
     "canUpdateUI": true,
     "children": [
         "headerPage2",
-        "searchHeader",
-        "contentPage"
+        "searchHeader"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -1,0 +1,173 @@
+{
+    "classname": "searchHeaders",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "baa5dcbaf68c4d9d8b177b8cde87bea0",
+                    "originalPropertyKey": "autoCapitalize",
+                    "propertyIndex": 1,
+                    "propertyKey": "autoCapitalize",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "autoCapitalize",
+                        "srcWidget": "tbxSearch",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "enum",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "None",
+                                        "none"
+                                    ],
+                                    [
+                                        "Words",
+                                        "words"
+                                    ],
+                                    [
+                                        "Sentences",
+                                        "sentences"
+                                    ],
+                                    [
+                                        "All",
+                                        "all"
+                                    ]
+                                ]
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "g1428425917845dea6cd59468ef2e480"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf745746f0184c30843ada62aa400792",
+                    "originalPropertyKey": "bottom",
+                    "propertyIndex": 2,
+                    "propertyKey": "bottom1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "bottom1",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "lblCancel",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a075ca39e9094d66861295b58e150f9f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e3491ab707074501b12e13404a715004",
+                    "originalPropertyKey": "blockedUISkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "blockedUISkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Blocked UI",
+                        "srcWidget": "flxBody",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c5156176230d4ce39e96cbf4648c6492"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "my",
+    "version": "1.0.0"
+}

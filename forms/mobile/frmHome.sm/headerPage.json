@@ -1,8 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "15%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -14,7 +17,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -22,7 +25,8 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "se4140c003304826a8a1bbc52e093228",
+    "_render_": true,
+    "_skin_": "sc4f3b89ffaa4b8e920f500be34246a4",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -31,37 +35,24 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "lblCategoryData",
-        "imgNext"
-    ],
     "clipbounds": true,
-    "containerId": true,
-    "containerweight": 100,
-    "controllerInfo": {
-        "default": {
-            "channel": "mobile",
-            "name": "flxRowCategoryController"
-        }
-    },
-    "enablescrolling": true,
-    "id": "flxRowCategory",
+    "containerweight": 0,
+    "data": {},
+    "id": "headerPage",
     "info": null,
-    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g9bac2edad2740eba8c4d74ab9d85db5",
+    "kuid": "c243f4231fd04150996d9d06fec02ee0",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "segRowCategory",
-    "pf": "segRowCategory",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxHeader",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1
+    "sourceUserWidget": "f6fa8efc822e45e68aabbb5082648d5b",
+    "wType": "UserWidgetInstance"
 }

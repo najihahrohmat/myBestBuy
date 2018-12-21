@@ -25,19 +25,13 @@
             "windowSoftInputMode": 2
         }
     },
-    "androidwearos": {
-        "needAppMenu": false
-    },
     "canUpdateUI": true,
-    "children": [
-        "flxHeader",
-        "fscContain"
-    ],
+    "children": [],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmInvestigateController"
+            "name": "frmProductController"
         }
     },
     "currentLocale": "default",
@@ -47,7 +41,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmInvestigate",
+    "id": "frmProduct",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -65,7 +59,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "db006fa617a24babb956624ee9e77f97",
+                "kuid": "gf81eb0e8d8d4990b2b92695d50a863a",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -76,7 +70,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "c2a0bfd122d445aab7aa4b355bc6d34b",
+                        "kuid": "fab18e2e87744883a59626ebeeda8559",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -93,7 +87,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "bb396416449e4000ba321e69646d661a",
+    "kuid": "jd636a35f5bf492e99a68d64b8d6520f",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
