@@ -5,11 +5,19 @@ define({
   },
 
   onViewCreated: function(){
+    this.initHeader();
     this.getList(); 
-    this.setAnimation();
+    this.setRowAnimation();
     this.view.segDetail.onRowClick = () => {
       const navObj=new kony.mvc.Navigation("frmCategories");
       navObj.navigate();};
+  },
+
+  initHeader: function(){
+    this.view.ApplicationHeader.initializeHeader({
+      leftCallback: () => {alert('hi');},
+      rightCallback: () => {alert('hi');},
+    });
   },
 
   ///set data to segment///
@@ -62,7 +70,7 @@ define({
     alert('Failed to invoke getList: ');
   },
 
-  setAnimation: function(){
+  setRowAnimation: function(){
     const transformObject1 = kony.ui.makeAffineTransform();
     const transformObject2 = kony.ui.makeAffineTransform();
 

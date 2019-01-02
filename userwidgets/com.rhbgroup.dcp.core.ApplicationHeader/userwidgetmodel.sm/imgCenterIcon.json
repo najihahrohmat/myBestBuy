@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "30dp"
     },
     "_margin_": [
         0,
@@ -20,17 +20,17 @@
         0
     ],
     "_skin_": "sc1c7258829849b2beeb9486ee42f5e9",
-    "_src_": "rhb_logo.png",
-    "_top_": {
-        "type": "string",
-        "value": "20dp"
-    },
+    "_src_": "bestbuylogo.png",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "35dp"
     },
     "canUpdateUI": true,
     "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
         "type": "string",
         "value": "50%"
     },

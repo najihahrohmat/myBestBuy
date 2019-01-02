@@ -24,16 +24,16 @@
         0
     ],
     "_skin_": "sc1c7258829849b2beeb9486ee42f5e9",
-    "_src_": "hdr_back_l.png",
-    "_top_": {
-        "type": "string",
-        "value": "15dp"
-    },
+    "_src_": "back.jpg",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "context": {
         "channel": "mobile",

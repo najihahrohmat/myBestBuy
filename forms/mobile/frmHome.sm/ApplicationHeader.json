@@ -35,16 +35,15 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
     "data": {},
-    "id": "headerPage",
+    "id": "ApplicationHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c243f4231fd04150996d9d06fec02ee0",
+    "kuid": "g4f3c0191fe64136aba014485f9bf8d0",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
@@ -53,6 +52,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snaptogrid": true,
-    "sourceUserWidget": "f6fa8efc822e45e68aabbb5082648d5b",
+    "sourceUserWidget": "cc53e14b09a1462a8c0324b41b4cf8ce",
     "wType": "UserWidgetInstance"
 }

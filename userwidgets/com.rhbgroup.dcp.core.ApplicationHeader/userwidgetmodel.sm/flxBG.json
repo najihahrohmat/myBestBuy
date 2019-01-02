@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s5ca3a4a86ba4c92bc7e17020d8f29f2",
+    "_skin_": "sf01797e6aaa4a4184b381d63d889003",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -37,13 +37,8 @@
     "canUpdateUI": true,
     "children": [
         "imgLeftIcon",
-        "lblLeftSecondary",
         "imgCenterIcon",
-        "lblCenterTitle",
-        "lblCenterSecondary",
-        "lblRightSecondary",
-        "imgRightIcon",
-        "imgRightIcon2"
+        "imgRightIcon"
     ],
     "clipbounds": true,
     "containerweight": 100,
